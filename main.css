@@ -1,0 +1,191 @@
+/*-------------- Global ---------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: circular std, sans-serif;
+    font-weight: 100;
+}
+body {
+    width: 60%;
+    margin: auto;
+    background-image: url(images/BG.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #17191A;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #17191A;
+}
+h5 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #17191A;
+}
+p {
+    color: #8f9ea5;
+    opacity: 0.8;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+.blue {
+    color:#027bff;
+}
+/*-------------- Global ---------------*/
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.contactMe, .nav-icons {
+    flex: 1;
+}
+.nav-icons {
+    text-align: right;
+}
+.nav-icons a, .contactMe a, .contactMe img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-icons a {
+    margin-left: 5%;
+}
+.contact-me a {
+    color: #027bff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.contact-me img {
+    margin-right: 10px;
+}
+
+
+/*-------------- Landing ---------------*/
+main {
+    height: 100vh;
+    position: relative;
+}
+.landing-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7em;
+}
+ul {
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.landing-left {
+    margin-top: 4em;
+}
+.landing-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*-------------- Skills ---------------*/
+
+.skills {
+    text-align: center;
+    margin-bottom: 10em;
+}
+.skills p {
+    margin-bottom: 30px;
+}
+.skills img {
+    width: 40px;
+    margin: 0 15px;
+}
+
+/*-------------- Work 01 ---------------*/
+
+.work > .workImg,
+.work2 > .workImg {
+    width: 85%;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work > .workImg {
+    float: right;
+}
+.work ul {
+    position: absolute;
+    bottom: 0;
+    right: 86%;
+}
+
+/*-------------- Work 02 ---------------*/
+
+.work2 > .work-text {
+    right: 0;
+    text-align: right;
+}
+.work2 > .workImg {
+    float: left;
+}
+.work2 ul {
+    position: absolute;
+    bottom: 0;
+    left: 86%;
+}
+
+
+/*-------------- Work 01 and 02 ---------------*/
+.work, .work2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+.work > .work-text, .work2 > .work-text,
+.work ul, .work2 ul {
+    position: static;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+.work ul, .work2 ul {
+    display: inline-flex;
+}
+.work li, 
+.work2 li {
+    padding: 10px
+}
+.work a, .work2 a {
+    text-decoration: none;
+    color: #17191A;
+}
+
+/*-------------- Footer ---------------*/
+
+footer {
+    background-image: url(images/Dribbble_Blue_Large.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 320px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+footer a {
+    color: #027bff;
+    text-decoration: none;
+}

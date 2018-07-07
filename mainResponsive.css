@@ -1,0 +1,22 @@
+@media only screen and (max-width: 850px) {
+    body {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    main {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    .landing-wrapper {
+        margin-top: 0;
+    }
+    .landing-wrapper, .landing-left, .landing-right {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skills {
+        margin: 100px auto;
+    }
+}
